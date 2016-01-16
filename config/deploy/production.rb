@@ -8,6 +8,10 @@
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
 
+role :app, %w{deploy@45.58.49.211}
+role :web, %w{deploy@45.58.49.211}
+role :db,  %w{deploy@45.58.49.211}
+
 
 # role-based syntax
 # ==================
